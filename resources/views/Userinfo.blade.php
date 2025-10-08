@@ -1,9 +1,10 @@
 <x-layout :title="'User Information'">
-    <div>
-        <h1>Booking From: {{ $request['checkin'] }} to {{ $request['checkout'] }}</h1>
-        <h1>Category: {{ $request['category'] }}</h1>
-        <h1>Price: {{ $request['price'] }}</h1>
-        <form action="{{ route('booking.store')}}" method="post">
+    @vite('resources/css/booking.css')
+    <div class="user-container">
+        <h1><span>Booking From: </span>{{ $request['checkin'] }} to {{ $request['checkout'] }}</h1>
+        <h1><span>Category:</span> {{ $request['category'] }}</h1>
+        <h1><span>Price:</span> {{ $request['price'] }} BDT</h1>
+        <form action="{{ route('booking.store')}}" method="post" class="user-form">
             @csrf
 
             <label for="name">Full Name:</label>

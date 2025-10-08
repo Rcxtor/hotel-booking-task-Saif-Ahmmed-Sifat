@@ -23,7 +23,7 @@ class BookingController extends Controller
         $validated = $request->validate([
             'email' => ['required', 'regex:/^[\w\.-]+@[\w\.-]+\.\w{2,4}$/'],
             'phone' => ['required', 'regex:/^(\+88)?01[3-9]\d{8}$/'],
-            'checkin' => 'required|date|after_or_equal:now',
+            'checkin' => 'required|date|after_or_equal:today',
             'checkout' => 'required|date|after:checkin',
         ]);
     
@@ -74,7 +74,7 @@ class BookingController extends Controller
         $checkoutDate = new \DateTime($checkout);
         $discount  = false;
 
-        $numberOfDays = $checkinDate->diff($checkoutDate)->days +1;
+        $numberOfDays = $checkinDate->diff($checkoutDate)->days+1;
             // dd($numberOfDays);
         
         if($numberOfDays >=3){

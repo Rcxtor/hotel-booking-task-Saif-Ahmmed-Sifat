@@ -1,0 +1,283 @@
+.booking-container
+{
+    margin-top: 3rem;
+    /* border: 2px solid red; */
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.2);/ */
+}
+.booking-title
+{   
+    margin-bottom: 2rem;
+    color: rgb(244, 233, 215);
+    font-weight: 900;
+    font-size: 3rem;
+}
+.booking-title span
+{
+    color: rgb(217, 125, 85);
+}
+
+.booking-form
+{
+    margin-top: 4rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgba(10, 10, 10, 0.35);
+}
+.form-group
+{
+    /* border: 2px solid red; */
+    min-height: 20rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* position: relative */
+
+}
+.submit-button
+{
+    margin-top: 1.5rem;
+    background-color: rgb(217, 125, 85);
+    border: none;
+    border-radius: 3px;
+    height: 2rem;
+    width: 10rem;
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: rgb(249, 243, 239);
+}
+.submit-button:hover
+{
+    cursor: pointer;
+    filter:saturate(0.6);
+}
+
+.form-group label
+{
+    color: rgb(210, 193, 182);
+
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.form-group input
+{
+    width:10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(249, 243, 239);
+
+}
+.error-message
+{
+    position: fixed;
+    top: 62%;
+    color: rgb(217, 125, 85);
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 0.2rem;
+}
+
+.available-container
+{   
+    margin-top: 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.35);
+    border-radius: 10px;
+
+
+}
+.in-out
+{
+    margin-top: 2rem;
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    justify-content:space-around;
+    font-size: 1.5rem;
+    color: rgb(249, 243, 239);
+    font-weight: 900;
+}
+.available-rooms-title
+{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgb(217, 125, 85);
+}
+.grid
+{   
+    margin-top: 2rem;
+    display: flex;
+    /* border: 2px solid red;  */
+    width: 90%;
+    height: 60%;
+    justify-content: center;
+    gap: 1rem;
+}
+.category-card
+{
+    display: flex;
+    flex-direction:column;
+    /* border: 2px solid red; */
+    background-color: rgb(100, 100, 100,0.5);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.category-card h2
+{
+    font-size: 1.5rem;
+    padding: .5rem;
+    color: rgb(217, 125, 85);
+    font-weight: 900;
+}
+.category-card p
+{
+    color: rgb(244, 233, 215);
+    font-size: 1.2rem;
+}
+.category-card p span
+{
+    color: rgb(217, 125, 85);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.category-card .no-room
+{
+    color: rgb(217, 125, 85);
+}
+.category-card .surcharge-info
+{
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    color: rgb(217, 125, 85);
+    font-size: 1.2rem;
+    text-align: center;
+    width: 80%;
+    padding: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.user-container
+{
+    margin-top: 8em;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    height: 30rem;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.35);
+    border-radius: 10px;
+    padding-top: 3rem;
+}
+.user-container  h1
+{
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: rgb(244, 233, 215);
+}
+.user-container  h1 span
+{
+    color: rgb(217, 125, 85);
+    font-size: 1.5rem;
+}
+.user-form
+{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-form label
+{
+    color: rgb(244, 233, 215);
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding-bottom: 0.4rem;
+}
+.user-form input
+{
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    height: 8%;
+}
+.invoice-container
+{
+    margin-top: 6rem;
+    /* border: 2px solid red; */
+    background-color: rgb(249, 243, 239,0.6);
+    padding: 2rem;
+    padding-top: 6rem;
+    width: 20%;
+    height: 28rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 2px rgb(100, 100, 100);
+}
+.invoice-container h2
+{
+    font-size: 2rem;
+    font-weight: 900;
+    color:rgb(27, 60, 83);
+}
+.invoice-container .inv-1
+{
+    color: rgb(27, 60, 83);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.invoice-container .inv-1 span
+{
+    font-size: 1.4rem;
+    color: rgb(50, 50, 50);
+}
+.invoice-container p
+{
+    font-size: 1.2rem;
+}
+.invoice-container p span
+{
+    color: rgb(27, 60, 83);
+}
+.invoice-container h3
+{
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: rgb(27, 60, 83);
+}
+.invoice-container .inv-2
+{
+    color: rgb(217, 125, 85);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: auto;
+}
