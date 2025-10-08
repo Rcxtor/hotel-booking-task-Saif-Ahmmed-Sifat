@@ -27,8 +27,8 @@ class DatabaseSeeder extends Seeder
 
         DB::table('room_categories')->insert([
             ['category' => 'Premium Deluxe', 'base_price' => 12000.00, 'created_at' => now(),'updated_at' => now()],
-            ['category' => 'Super Deluxe', 'base_price' => 8000.00, 'created_at' => now(),'updated_at' => now()],
-            ['category' => 'Standard Deluxe', 'base_price' => 5000.00, 'created_at' => now(),'updated_at' => now()],
+            ['category' => 'Super Deluxe', 'base_price' => 10000.00, 'created_at' => now(),'updated_at' => now()],
+            ['category' => 'Standard Deluxe', 'base_price' => 8000.00, 'created_at' => now(),'updated_at' => now()],
         ]);
         $categories = RoomCategory::all();
         foreach ($categories as $category) {

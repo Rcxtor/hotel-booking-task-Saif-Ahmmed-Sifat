@@ -12,11 +12,14 @@ class Booking extends Model
       ];
     public function room()
       {
-          return $this->BelongsTo(Room::class);
+          return $this->BelongsTo(Room::class, 'room_id');
       }
     
     public function roomcategory()
     {
         return $this->BelongsTo(RoomCategory::class);
     }
+    protected $casts = [
+        'total_price' => 'decimal:2',
+    ];
 }

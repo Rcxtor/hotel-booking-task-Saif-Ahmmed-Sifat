@@ -10,9 +10,4 @@
             <li><a href="/contact">Contact</a></li>
         </ul>
     </div>
-    <div class="auth-buttons">
-        <button class="login-btn"><a href="/login">Login</a></button>
-        <button class="signup-btn"><a href="/register">Sign Up</a></button>
-    </div>
-
 </div>

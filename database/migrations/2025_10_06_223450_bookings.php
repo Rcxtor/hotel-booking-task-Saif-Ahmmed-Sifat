@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('phone');
             $table->string('room_category');
-            $table->foreignId('room_id');
+            $table->foreignId('room_id')->constrained()->cascadeOnDelete();
             $table->decimal('total_price', 10, 2);
             $table->date('check_in');
             $table->date('check_out');
