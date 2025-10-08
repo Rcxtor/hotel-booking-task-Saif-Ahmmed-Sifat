@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout :title="'User Information'">
     <div>
         <h1>Booking From: {{ $request['checkin'] }} to {{ $request['checkout'] }}</h1>
         <h1>Category: {{ $request['category'] }}</h1>

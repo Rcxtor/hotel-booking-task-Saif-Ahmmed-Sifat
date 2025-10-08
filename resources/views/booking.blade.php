@@ -93,6 +93,6 @@
             @endforeach
         @endisset
     </div>
-
+    
 </x-layout>
 @vite('resources/js/index.js')

@@ -1,5 +1,6 @@
-<x-layout>
+<x-layout :title="'Invoice'">
     <div>
+        Thank You
         <h1>Booked Room</h1>
         <h1>Booked category: {{ $booking['room_category'] }}</h1>
         <h1>Customer Name: {{ $booking['name'] }}</h1>

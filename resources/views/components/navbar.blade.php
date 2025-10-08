@@ -1,13 +1,15 @@
 <div class="nav-bar">
     <div class="logo">
-        <h1>Hotel Go</h1>
+        <a href="/">Hotel<span>Go</span></a>
     </div>
     <div class="nav-links">
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/rooms">Rooms</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/book">Book Room</a></li>
+            <li><a href="/">Special Offer</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">Contact</a></li>
         </ul>
     </div>
+    <div class="white-space"></div>
 </div>
